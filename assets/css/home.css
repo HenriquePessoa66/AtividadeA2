@@ -1,0 +1,21 @@
+/*PÁGINA HOME*/
+#Top_usuario img {
+    object-fit: cover;
+    width: 45px;
+    height: 45px;
+    margin-right: 5px;
+    border-radius: 100%;
+}
+
+/*NAVBAR*/
+li {
+    transition: all .2s ease-in-out;
+}
+li:hover {
+    background: #138496;
+    color: #FFF;
+}
+li:hover span {
+    cursor: pointer;
+    color: #FFF !important;
+}

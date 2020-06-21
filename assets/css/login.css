@@ -1,0 +1,40 @@
+/*FORMATAÇÃO PERSONALIZADA*/
+.border-r-none {
+    border-radius: 0 !important;
+}
+
+/*PÁGINA DE LOGIN E CADASTRO*/
+body {
+    background-image: url(../image/background-frente.png), url(../image/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Doppio+One');
+#LoginCadastro_container {
+    min-height: 100vh;
+    height: 100vh;
+}
+#logo_LoginCadastro h1 {
+    font-family: 'Doppio One', sans-serif;
+}
+
+/*Logo*/
+#logo_LoginCadastro {
+    position: relative;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+/*Botão cabeçalho*/
+#botao_LoginCadastro {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+#botao_LoginCadastro button {
+    border-radius: 0;
+}
